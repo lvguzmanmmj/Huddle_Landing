@@ -1,0 +1,122 @@
+@media (max-width: 700px) {
+  
+    article h2{
+      font-size: 25px;
+    }
+    header { 
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0px;
+      margin: 0px;
+    }
+    header img{
+        max-width: 190px;
+        max-height: 50px;
+
+    }
+    header button{
+        display: inline;
+        justify-content: center;
+        margin: 20px auto;
+        padding: 10px 30px;
+    }
+    p.centerp{
+        font-size: 20px;
+    }
+
+    article.formed{
+      display:flex;
+      flex-wrap: wrap;
+    }
+    h1.centerh1{
+      padding-top: 20px;
+      font-size: 30px;;
+    }
+  
+    img.compu {
+      width: 100%;
+    }
+    article.formed img {
+     margin: auto;
+
+    }
+    article.generate{   
+        flex-direction: column-reverse;
+    }
+    img.ilustracion{
+        margin-bottom: 50px;
+    }
+    article.seccion2{
+        flex-direction: column;
+        margin:0px;
+        padding-top:60px;
+    }
+    img.conversation{
+        margin:0px;
+    }
+    article.generate{
+        flex-direction: column-reverse;
+    }
+    article.generate3{
+        flex-direction: column-reverse;
+    }
+    img.ilustracion{
+        margin-left: auto;
+    }
+
+    .olasTop-desktop img{
+      display: none;
+      width:100%;
+    }
+    .olasBottom-Desktop img{
+      display: none;
+      width:100%;
+    }
+    .s3-topDesktop img{
+        display: none;
+        width:100%;
+    }
+    .s3-BottomDesktop img{
+        display: none;
+        width:100%;
+    }
+    footer{
+      display:flex;
+      max-width: 100%;
+      align-items: center;
+      flex-direction: column-reverse;
+      padding: 0px;
+    }
+    input{
+        padding: 20px 107px;
+
+    }
+    article button{
+        margin:20px 0px;
+  
+    }
+    article.espaciado1{
+        width:100%;
+    }
+    article.columna2{
+        width:100%;
+    }
+    img .imgfooter{
+      display:none;
+      width:100%;
+    }
+    .iconos{
+      padding-bottom:30px;
+    }
+    .buscar{
+       flex-direction: column;
+    }
+    .Development{
+      margin-top: -1px;
+    }
+  
+  }
+  
+  

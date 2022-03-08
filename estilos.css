@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  max-width: 2000px;
+}
+header {
+  /*Logo y boton */
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+header img {
+  /* imagen huddle */
+  margin: 70px 0px 0px 70px;
+}
+header button {
+  /* boton de Try it free*/
+  font-weight: bold;
+  margin: 50px 50px 0px 0px;
+  padding: 0px 40px;
+  border: 2px solid hsl(321, 100%, 78%);
+  border-radius: 30px;
+  color: hsl(321, 100%, 78%);
+}
+
+article .center {
+  /* primer texto*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+}
+h1.centerh1 {
+  /* Build the community your....*/
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  margin: 0px;
+  text-align: center;
+}
+p.centerp {
+  font-size: 25px;
+  padding-top: 30px;
+  margin: 0px;
+  text-align: center;
+}
+article h2 {
+  /* Todos los titulos pequeños de la pagina*/
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  margin: 0px;
+  text-align: center;
+}
+article p {
+  /* todos los parrafos de la pagina*/
+  max-height: 25%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin: 0px 0px;
+  padding-bottom: 60px;
+  padding: 22px 20px;
+}
+
+article button {
+  /* Boton GET STARTED FOR FREE*/
+  background: hsl(322, 100%, 66%);
+  padding: 20px 50px;
+  color: hsl(207, 100%, 98%);
+  border-color: hsl(322, 100%, 66%);
+  font-size: 20px;
+  border-radius: 30px;
+}
+article button:hover {
+  /* Boton GET STARTED FOR FREE*/
+  background: blueviolet;
+}
+img.compu {
+  /* Imagen computador*/
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.formed {
+  /* iconos menssages community*/
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+article.generate {
+  /* seccion 1*/
+  display: flex;
+  background-color: #f6fbff;
+  align-items: center;
+  text-align: center;
+  align-items: left;
+  justify-content: center;
+}
+
+.form-top img {
+  /* fondo imagen top*/
+  width: 100%;
+  height: auto;
+  margin-bottom: -10px;
+}
+.from-top .form-bottom img {
+  /* fondo imagen button*/
+  width: 100%;
+}
+.olasBottom-Desktop{
+  width:100%;
+}
+ img.olasTop-mobile{
+    display: none; 
+
+}
+img.olasBottom-mobile{
+  display:none
+}
+img.ilustracion {
+  /* imagen de la seccion 1*/
+  width: 80%;
+  height: auto;
+  margin-left: -35px;
+}
+.seccion2 {
+  /* seccion 2e*/
+  display: flex;
+  margin-top: 250px;
+  margin-bottom: 120px;
+}
+
+img.conversation {
+  /* imagen de la seccion 2*/
+  width: 80%;
+  margin-left: 65px;
+}
+img.s3-topmobile{
+  display:none;
+}
+img.s3-BottomMobile{
+  display:none;
+}
+.seccion2 p {
+  /* You wouldn't paginate a conversation in real....*/
+  text-align: center;
+}
+.seccion2 {
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article.generate3 {
+  /* seccion #3*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6fbff;
+}
+
+.from-top3 img {
+  /* fondo top img */
+  width: 100%;
+  margin-bottom: -10px;
+}
+.from-buttom3 img {
+  /* fondo bottom img*/
+  width: 100%;
+  margin-bottom: 50px;
+}
+article.ready {
+  padding-bottom: 50px;
+}
+footer {
+  /* footer */
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(192, 100%, 9%);
+  margin-top: -10px;
+  color: hsl(207, 100%, 98%);
+  padding: 100px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+div.colors {
+  background: hsl(192, 100%, 9%);
+}
+.lorem {
+  display: block;
+}
+
+.imgfooter {
+  /*fondo img footer*/
+  display: flex;
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: -1px;
+}
+img.imgfooterb{  /*footer movile img*/
+  display:none;
+
+}
+article.espaciado1 {
+  width: 50%;
+  max-width: 350px;
+}
+article.columna2 {
+  width: 50%;
+  max-width: 350px;
+}
+img.logo {
+  padding-bottom: 20px;
+  padding-top: 25px;
+}
+.img1 p {
+  /* parrafos columna 1*/
+  display: inline-block;
+  font-size: 15px;
+  padding-left: 0px;
+  padding-right: 30px;
+}
+.img1 p.lorem {
+  /* parrafos columna 1*/
+  display: block;
+}
+h2.new {
+  text-align: left;
+}
+.phone {
+  padding-bottom: 0px;
+}
+
+.fa-brands{   /* Iconos */
+  font-size:28px;
+  padding-top: 20px;
+  padding-right: 30px;
+  text-align: left;
+}
+img.facebook {
+  width: 45px;
+  padding-left: 0px;
+}
+.columna2 p { /* parrafos columna2*/
+  font-size: 15px;
+  padding-left: 0px;
+}
+.buscar {
+  display: flex;
+  padding-top: 30px;
+}
+input {
+  padding-right: 100px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.Development{
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.Development span{
+  color:#fff;
+}
+.Development a{
+  text-decoration: none;
+  color: rgba(0, 213, 255, 0.993);
+
+}
+
+
